@@ -1,0 +1,25 @@
+/* Ajuste a estrutura do container do cartão */
+.cartao {
+    width: 300px;
+    min-height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+/* Garanta que a imagem não atropele o texto */
+.cartao img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+/* Ajuste o espaço do texto dentro do card */
+.cartao__conteudo {
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 1rem;
+    line-height: 1.4;
+}
